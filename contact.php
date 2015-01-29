@@ -1,7 +1,7 @@
 <?php
 
-$to = "mail@domain.com"; # <--- Your Email 
-$subject = "You received a mail from your website's contact form";
+$to = "info@partialpressureproductions.com, peterfulks@gmail.com, trevorfulks@hotmail.com"; # <--- Your Email 
+$subject = "You received an email from your website's contact form";
 
 if ($_POST) {
 	$name = stripslashes($_POST['fullname']);
